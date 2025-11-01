@@ -89,7 +89,7 @@ header nav ul li:hover::after {
     }
     100% {
         opacity: 1;
-        tranforme: translate(150%, -50%) scale(1.5);
+        transform: translate(150%, -50%) scale(1.5);
     }
 
 }
@@ -188,6 +188,7 @@ header nav ul li:hover::after {
     opacity: 1;
     transform: translateX(0);
 }
+
 
 .btn {
     transition: all .3s ease;
