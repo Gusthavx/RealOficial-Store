@@ -118,6 +118,17 @@ header nav ul li:hover::after {
     max-width: 80%;
     filter: drop-shadow(0 0 30px rgba(0, 247, 255, 0.3));
     max-height: 60%;
+
+    /*Animation*/
+    transform: translateX(200px);
+    transition: transform 0.6s ease, opacity 0.6s ease;
+    transition-delay: 0.5s;
+    opacity: 0;
+}
+
+.active .product-img img {
+    opacity: 1;
+    transform: translateX(0);
 }
 
 .content {
@@ -146,6 +157,17 @@ header nav ul li:hover::after {
     font-family: "Orbitron", sans-serif;
     line-height: 1.1;
     margin-bottom: 20px;
+
+    /*Animation*/
+    transform: translateX(200px);
+    transition: transform 0.6s ease, opacity 0.6s ease;
+    transition-delay: 0.5s;
+    opacity: 0;
+}
+
+.active .product-name {
+    opacity: 1;
+    transform: translateX(0);
 }
 
 .description {
@@ -154,6 +176,17 @@ header nav ul li:hover::after {
     line-height: 1.6;
     margin-bottom: 30px;
     max-width: 600px;
+
+    /*Animation*/
+    transform: translateX(200px);
+    transition: transform 0.6s ease, opacity 0.6s ease;
+    transition-delay: 0.5s;
+    opacity: 0;
+}
+
+.active .description {
+    opacity: 1;
+    transform: translateX(0);
 }
 
 .btn {
@@ -227,10 +260,15 @@ header nav ul li:hover::after {
     justify-content: center;
     align-items: center;
     opacity: 0;
+
+    /*Animation*/
+    transform: translateX(100vw);
+    transition: transform 0.8s ease-in-out, opacity 0.8s ease-in-out;
 }
 
 .active {
     opacity: 1;
+    transform: translateX(0);
 }
 
 .indicators {
