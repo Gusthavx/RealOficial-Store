@@ -4,6 +4,8 @@ items = document.querySelectorAll('.item')
 dots = document.querySelectorAll('.dot')
 numberIndicator = document.querySelector('.numbers')
 list = document.querySelectorAll('.list')
+document.querySelector('.btn')
+
 
 
 let active = 0;
