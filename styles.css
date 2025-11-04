@@ -356,5 +356,98 @@ img {
     top: 20%;
     left: 70%;
 
+}@media screen and (max-width: 600px){
+    body {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .logo {
+        display: flex;
+        font-size: 20px;
+        right:20px;
+        width: 200px;
+
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        left: 10px;
+        width: 100%;
+
+
+    }
+
+    nav ul li {
+        display: none;
+    }
+
+    .product-name {
+        font-size: 1.5rem;
+    }
+    .description {
+        font-size: 0.7rem;
+    }
+
+    .content {
+        padding: 8px;
+    }
+
+    .arrows {
+        width: 95%;
+
+    }
+
+    .arrow-btn {
+        width: 30px;
+        height: 30px;
+        border: none;
+
+
+
+    }
+
+    svg {
+        display: none;
+    }
+
+    .arrow-btn:hover {
+        display: none;
+    }
+
+    .indicators {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+
+    }
+
+    .numbers {
+        font-size: 1.8rem;
+    }
+
+    .dots {
+        width: 60px;
+
+    }
+
+    .btn {
+        width: 90px;
+        height: 40px;
+        font-size: 10px;
+        padding: 4px;
+
+
+    }
+
+    .container::before {
+        display: none;
+    }
 }
 
